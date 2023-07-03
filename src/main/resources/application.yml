@@ -1,0 +1,17 @@
+server:
+    port: 8080
+spring:
+    datasource:
+        password: Olamide_98
+        url: jdbc:mysql://localhost:3306/account
+        username: root
+    jpa:
+        hibernate:
+            ddl:
+                dialect: org.hibernate.dialect.mySQLDialect
+            ddl-auto: create-drop
+        properties:
+            hibernate:
+                format_sql: true
+                database: mysql
+        show-sql: true
